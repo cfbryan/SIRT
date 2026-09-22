@@ -50,7 +50,7 @@ For each disclosing party (Finder and SIRT), a case captures three things:
 
 | Element | Required? | Example |
 |---|---|---|
-| **Whether AI was used** | Always — yes or no | "AI tooling was used." / "No AI tooling was used." |
+| **Whether AI was used** | Always — yes or no | "AI tooling was used." / "No AI tooling was used." In the event of insufficient disclosure, the case will be labeled, "AI disclosure incomplete." This lasts until the deficiency is remediated.|
 | **How / when (capability + phase)** | Required whenever AI materially assisted | "AI-assisted discovery and patch development." |
 | **Which specific tools/models** | Optional, and only at the disclosing party's request | "Tools: {from the controlled vocabulary}." |
 
@@ -76,6 +76,8 @@ Use these high-level phrases to describe *how and when* AI assisted. Combine as 
 - **Intake triage / deduplication** — classifying, routing, or de-duplicating incoming reports
 
 If a disclosing party's usage does not fit a listed phase, the SIRT normalizes it to the nearest phrase or holds it for review rather than inventing new public language.
+
+If a disclosing party does not sufficiently describe the AI usage, the SIRT will alert the disclosing party that they have seven days to remediate the deficiency. In the event of a critical vulnerability that does not have sufficient disclosure, the SIRT may proceed with remediation while the disclosing party is still in communication regarding their AI usage. 
 
 ---
 
